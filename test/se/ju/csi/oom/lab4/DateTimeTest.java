@@ -13,7 +13,7 @@ public class DateTimeTest {
 
 	@Test
 	public void test() {
-		DateTime test = new DateTime(1988, 9, 28, 12, 5, 37);
+		DateTime test = new DateTime(1988, 9, 28, 12, 5);
 		DateTime test2 = new DateTime(test.toString());
 		assertEquals(test.toString(), test2.toString());
 	}
